@@ -1,17 +1,17 @@
 class AltiroHhtracker < Formula
   desc "Work-hours MCP tracker for AI coding sessions"
   homepage "https://github.com/serumax/altiro-hhtracker"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/serumax/altiro-hhtracker/releases/download/v0.1.0/altiro-hhtracker_0.1.0_darwin_arm64.tar.gz"
-      sha256 "823ec0922d3e55f91d964777cb4a35e414d7beaeedae2cf63c93a457b8ede1a3"
+      url "https://github.com/serumax/altiro-hhtracker/releases/download/v0.1.1/altiro-hhtracker_0.1.1_darwin_arm64.tar.gz"
+      sha256 "f598a2ccf729f17d4b95ab2e5e82c9c228896971475c92e65fc99d88580f977c"
     end
     on_intel do
-      url "https://github.com/serumax/altiro-hhtracker/releases/download/v0.1.0/altiro-hhtracker_0.1.0_darwin_amd64.tar.gz"
-      sha256 "2fd2dc5711cc9bed464989bdbdf83e21e78494f1e7b693ee1ecb07173df09c9b"
+      url "https://github.com/serumax/altiro-hhtracker/releases/download/v0.1.1/altiro-hhtracker_0.1.1_darwin_amd64.tar.gz"
+      sha256 "7982b7c3a9ed1d2c4a01dfd5556fc11f3fa3c1bec6d24c27fe8dbe9e6d887d57"
     end
   end
 
